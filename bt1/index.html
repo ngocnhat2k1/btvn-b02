@@ -46,40 +46,83 @@
             height: 10px;
             background-color:black;
         }
-        .inline1{
+        .inline11{
             display: inline-block;
             margin-left: 2px;
             margin-right: 2px;
             
         }
-        .inline2{
+        .inline21{
             display: inline-block;
             margin-left: 2px;
             margin-right: 2px;
             
         }
-        .inline3{
+        .inline31{
             display: inline-block;
             margin-left: 2px;
             margin-right: 2px;
     
             
         }
+        .inline12 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:top
+
+        }
+
+        .inline22 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:middle;
+
+        }
+
+        .inline32 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:bottom;
+
+
+        }
+
+        .fz-large {
+            height: 25px;
+        }
     </style>
 </head>
 <body>
     <div class="border-layout">
         <div class="row1">
-            <div class="square inline1"></div>
-            <div class="square inline1"></div>
+            <div class="square inline11"></div>
+            <div class="square inline11"></div>
         </div>
         <div class="row2">
-            <div class="square inline2"></div>
-            <div class="square inline2"></div>
+            <div class="square inline21"></div>
+            <div class="square inline21"></div>
         </div>
         <div class="row3">
-            <div class="square inline3"></div>
-            <div class="square inline3"></div>
+            <div class="square inline31"></div>
+            <div class="square inline31"></div>
+        </div>
+
+    </div>
+    <div class="border-layout">
+        <div class="row1">
+            <div class="square inline12"></div>
+            <div class="square inline12 fz-large"></div>
+        </div>
+        <div class="row2">
+            <div class="square inline22"></div>
+            <div class="square inline22 fz-large"></div>
+        </div>
+        <div class="row3">
+            <div class="square inline32"></div>
+            <div class="square inline32 fz-large"></div>
         </div>
 
     </div>
