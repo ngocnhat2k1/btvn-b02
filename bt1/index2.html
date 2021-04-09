@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border-layout {
+            position: relative;
+            border: 1px solid lavender;
+            background-color: lavender;
+            width: 100px;
+            height: auto;
+        }
+
+        .row1 {
+            margin-top: 5px;
+            border: 1px solid palegreen;
+            background-color: palegreen;
+            width: auto;
+            height: auto;
+            
+        }
+
+        .row2 {
+            margin-top: 10px;
+            border: 1px solid lemonchiffon;
+            background-color: lemonchiffon;
+            width: auto;
+            height: auto;
+            text-align: center;
+           
+        }
+
+        .row3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid lightskyblue;
+            background-color: lightskyblue;
+            width: auto;
+            height: auto;
+            text-align: right;
+            
+        }
+
+        .square {
+            border: 1px solid black;
+            width: 10px;
+            height: 10px;
+            background-color: black;
+        }
+
+        .inline1 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:top
+
+        }
+
+        .inline2 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:middle;
+
+        }
+
+        .inline3 {
+            display: inline-block;
+            margin-left: 2px;
+            margin-right: 2px;
+            vertical-align:bottom;
+
+
+        }
+
+        .fz-large {
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border-layout">
+        <div class="row1">
+            <div class="square inline1"></div>
+            <div class="square inline1 fz-large"></div>
+        </div>
+        <div class="row2">
+            <div class="square inline2"></div>
+            <div class="square inline2 fz-large"></div>
+        </div>
+        <div class="row3">
+            <div class="square inline3"></div>
+            <div class="square inline3 fz-large"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
